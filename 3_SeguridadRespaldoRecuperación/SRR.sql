@@ -21,6 +21,12 @@ FLUSH PRIVILEGES;
 -- Restricción de conexión: solo desde el host local (127.0.0.1).
 
 
+
+
+
+
+
+
 -- Respaldo y recuperacion:
 CREATE USER 'backup_user'@'127.0.0.1' IDENTIFIED BY 'Backup#2024!';
 /*CREATE USER: Crea un nuevo usuario en MySQL.
